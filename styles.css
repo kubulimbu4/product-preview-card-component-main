@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  background-color: azure;
+}
+
+.container {
+  display: flex;
+  padding: 200px 500px;
+}
+.mini-container {
+  display: flex;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: white;
+}
+.perfume {
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+.grey {
+  color: grey;
+}
+.old-price {
+  text-decoration: line-through;
+  padding-left: 20px;
+}
+.new-price {
+  color: green;
+  font-size: 2em;
+  font-weight: bold;
+}
+.img {
+  width: 100%;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+}
+.btn-container {
+  display: flex;
+}
+.btn {
+  display: flex;
+  padding: 1.5em;
+  font-size: 1em;
+  margin: 0.25em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background: darkgreen;
+  width: 250px;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+.cart {
+  width: 30px;
+  background-color: darkgreen;
+  padding-right: 30px;
+  padding-left: 10px;
+}
